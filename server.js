@@ -25,7 +25,7 @@ const generateVerificationToken = () => {
   return crypto.randomBytes(20).toString("hex");
 };
 const upload = multer({ storage: storage });
-// uri Auth 
+// Uri Auth 
 const uri =
   "mongodb+srv://aurthohinparvez2:Lp31ngSaPwngIi2g@cluster0.oap4niv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
