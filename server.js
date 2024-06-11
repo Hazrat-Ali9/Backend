@@ -76,7 +76,7 @@ async function run() {
       const users = await productCollection.find(query).toArray();
       res.send(users);
     });
-    // post 
+    // Post 
     app.post("/product", upload.single('image'), async (req, res) => {
       try {
         const status = req.body.status || 'pending';
