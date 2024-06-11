@@ -8,7 +8,7 @@ const fs = require('fs');
 const port = process.env.PORT || 8000;
 const crypto = require("crypto");
 
-// --------middlewire------------
+// --------Middlewire------------
 
 app.use(cors());
 app.use(express.json());
